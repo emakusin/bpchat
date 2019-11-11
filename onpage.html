@@ -13,7 +13,7 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
     SERVICE_PATTERN_CHAT_CONFIG = {
         appId: '5e5e3c28-2448-43b8-aa0f-a70f103078f0',
         apiUrl: 'https://cent7mak1.bugfocus.com/clientweb/api/v1',
-        tenantUrl: 'cent7mak1.bugfocus.com',
+        tenantUrl: 'example.com',
         chatPath: 'https://cent7mak1.bugfocus.com/clientweb/chat-client-v4/'
 
         /*        
@@ -27,11 +27,25 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
 </script>
 <script src="https://cent7mak1.bugfocus.com/clientweb/chat-client-v4/js/init.js"></script> 
  <div class="sp-callback-form" id="sp-callback-form">
-   <label>phone</label>
-   <input type="tel" id="sp-callback-phone_number" placeholder="phone"  required />
+   <label>null</label>
+   <input type="tel" id="sp-callback-null" placeholder="null" />
+   <input type="tel" id="sp-callback-Phone number" placeholder="Phone number " />
+   <input type="email" id="sp-callback-Email" placeholder="Email" />
+   <input type="text" id="sp-callback-Name" placeholder="Name" />
+   <input type="text" id="sp-callback-Text" placeholder="Text" />
+   <input type="date" id="sp-callback-Date" placeholder="Date" />
+   <textarea id="sp-callback-Multiline text" placeholder="Multiline text" ></textarea>
+   <input type="range" id="sp-callback-Numerical range slider"  min="1" max="12"/>
+   <input type="radio" id="sp-callback-Radio buttons" name="sp-callback-Radio buttons"  value="17" /><label for="sp-callback-Radio buttons">17</label>
+   <input type="radio" id="sp-callback-Radio buttons" name="sp-callback-Radio buttons"  value="4564" /><label for="sp-callback-Radio buttons">4564</label>
+   <input type="radio" id="sp-callback-Radio buttons" name="sp-callback-Radio buttons"  value="8" /><label for="sp-callback-Radio buttons">8</label>
+   <input type="radio" id="sp-callback-Radio buttons" name="sp-callback-Radio buttons"  value="9" /><label for="sp-callback-Radio buttons">9</label>
+   <select id="sp-callback-Selection list" placeholder="Selection list" >
+      <option>588888</option>
+   </select>
    <button id="sp-chat-submit-inline">Chat</button>
-   <button id="sp-callback-submit-inline">Call</button>
 </div>
+
     
 </body>
 </html>
